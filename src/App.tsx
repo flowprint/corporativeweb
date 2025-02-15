@@ -82,6 +82,20 @@ function App() {
 
             {/* Mobile Menu */}
             <div className="flex items-center lg:hidden">
+              <a 
+                href="https://es.flowprinttrading.com/"
+                className="flex items-center justify-center w-6 h-6 rounded-lg overflow-hidden mr-3 transform-gpu hover:scale-105 transition-all hover:bg-gray-800/50"
+                aria-label="Versión en Español"
+              >
+                <img
+                  src="https://flowprinttrading.com/00-icons/esp.png"
+                  alt="Español"
+                  className="absolute w-4 h-4 object-contain"
+                  loading="eager"
+                  width="16"
+                  height="16"
+                />
+              </a>
               <button 
                 className="hidden sm:block text-gray-300 hover:text-white px-3 py-1.5 rounded-lg border border-gray-700 hover:bg-gray-800 transition-all transform-gpu text-sm mr-4 hover:scale-105"
               >
@@ -96,12 +110,28 @@ function App() {
             </div>
 
             {/* Desktop CTA */}
-            <a 
-              href="#join-us"
-              className="hidden lg:block bg-indigo-600 text-white px-6 py-2 rounded-lg hover:bg-indigo-700 transition-all transform-gpu hover:shadow-lg hover:scale-105 button-hover"
-            >
-              Join Us
-            </a>
+            <div className="hidden lg:flex items-center space-x-4">
+              <a 
+                href="https://es.flowprinttrading.com/"
+                className="flex items-center justify-center w-8 h-8 rounded-lg overflow-hidden transform-gpu hover:scale-105 transition-all hover:bg-gray-800/50"
+                aria-label="Versión en Español"
+              >
+                <img
+                  src="https://flowprinttrading.com/00-icons/esp.png"
+                  alt="Español"
+                  className="absolute w-6 h-6 object-contain"
+                  loading="eager"
+                  width="24"
+                  height="24"
+                />
+              </a>
+              <a 
+                href="#join-us"
+                className="bg-indigo-600 text-white px-6 py-2 rounded-lg hover:bg-indigo-700 transition-all transform-gpu hover:shadow-lg hover:scale-105 button-hover"
+              >
+                Join Us
+              </a>
+            </div>
           </div>
         </div>
       </header>
